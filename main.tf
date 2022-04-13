@@ -53,7 +53,7 @@ resource "google_compute_instance" "hashicat" {
       image = "ubuntu-os-cloud/ubuntu-1804-lts"
     }
    labels{
-     department = "devops"
+     "department" = "devops"
    }
   }
 
